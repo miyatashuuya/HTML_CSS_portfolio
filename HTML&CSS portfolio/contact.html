@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_about.css">
+    <link rel="stylesheet" href="style_contact.css">
+    <title>My portfolio ABOUT</title>
+</head>
+<body>
+    <header>
+        <div class="head_content">
+            <div class="head_left">
+                <div class="logo"><img src="images/logo.png" alt=""></div>
+                <div class="h1"><h1><a href="main.html">My CAT</a></h1></div>
+            </div>
+            <ul class="head_ul">
+                <li class="li_c"><a href="about.html">ABOUT</a></li>
+                <li class="li_c"><a href="photo.html">PHOTO</a></li>
+                <li class="li_c"><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+ </header>
+    <input type="checkbox" id="hunbarger">
+    <label for="hunbarger">
+        <span class="barger">
+            <span class="bar"></span>
+        </span>
+    </label>
+    <label for="hunbarger" class="dark"></label>
+ 
+    <div id="menu">
+        <ul id="menu_ul">
+            <li class="menu_li"><a href="about.html">ABOUT</a></li>
+            <li class="menu_li"><a href="photo.html">PHOTO</a></li>
+            <li class="menu_li"><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+
+ <main>
+    <h2>CONTACT</h2>
+    <div class="Form">
+        <div class="Form-Item">
+          <p class="Form-Item-Label">
+            <span class="Form-Item-Label-Required">必須</span>会社名
+          </p>
+          <input type="text" class="Form-Item-Input" placeholder="例）株式会社令和">
+        </div>
+        <div class="Form-Item">
+          <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>氏名</p>
+          <input type="text" class="Form-Item-Input" placeholder="例）山田太郎">
+        </div>
+        <div class="Form-Item">
+          <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>電話番号</p>
+          <input type="text" class="Form-Item-Input" placeholder="例）000-0000-0000">
+        </div>
+        <div class="Form-Item">
+          <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>メールアドレス</p>
+          <input type="email" class="Form-Item-Input" placeholder="例）example@gmail.com">
+        </div>
+        <div class="Form-Item">
+          <p class="Form-Item-Label isMsg"><span class="Form-Item-Label-Required">必須</span>お問い合わせ内容</p>
+          <textarea class="Form-Item-Textarea"></textarea>
+        </div>
+        <input type="submit" class="Form-Btn" value="送信する">
+      </div>
+ </main>
+</body>
+</html>
